@@ -8,6 +8,6 @@ app.use(express.static('public'))
 app.use(weatherRoute)
 
 app.listen(Port,()=>{
-    console.log(`Server is Started on Port ${Port} on ${process.env.NODE_ENV} mode.`)
+    console.log(`Server is Started on Port ${Port}`)
 })
 
