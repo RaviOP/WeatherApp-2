@@ -162,10 +162,13 @@ body{
     .detail.bordered {
         border-left: none;
         border-right: none;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
+        border-top: 1px dotted black;
+        border-bottom: 1px dotted black;
     }
     .city-search-container{
         text-align: center;
+    }
+    #city-search{
+        width: 80%;
     }
 } 
