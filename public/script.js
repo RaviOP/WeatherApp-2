@@ -1,5 +1,5 @@
 const Form = document.querySelector('form')
-const Search = document.querySelector('input')
+const Search = document.getElementById('city-search')
 const messageOne = document.querySelector('.status')
 const messageTwo = document.querySelector('.location')
 const messageThree = document.querySelector('#V1')
